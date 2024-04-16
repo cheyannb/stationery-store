@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Checkout</title>
+        <title>Product 2</title>
         <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta
@@ -27,10 +27,14 @@
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
                       <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                      <a class="nav-link" href="checkout.html">Checkout</a>
+                      <a class="nav-link" href="checkouttest.html">Checkout</a>
                       <a class="nav-link" href="products.html">Products</a>
-                      <a class="nav-link" href="contact.html">Contact Us</a>
                       <a class="nav-link" href="login.html">Login/Sign Up</a>
+                      <a href="cart.html" target="_blank" rel="noopener noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+                            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                        </svg>
+                    </a>
       
                     </div>
                   </div>
@@ -46,7 +50,7 @@
                     <div class="product">
                      
                       <div>
-                        <span>Product 1</span>
+                        <span>Product 2</span>
                     <img src="images/small/second.png" alt="">
                       </div>
                       <label class="price small">$23.99</label>
@@ -58,7 +62,7 @@
                   <label class="title">Apply coupons</label>
                   <form class="form">
                       <input type="text" placeholder="Apply your coupons here" class="input_field">
-                      <button>Apply</button>
+                      <button type="button" class="btn btn-info">Apply</button>
                   </form>
                 </div>
               
@@ -69,14 +73,18 @@
                   </div>
                   <div class="checkout--footer">
                     <label class="price"><sup>$</sup>23.99</label>
-                    <button class="checkout-btn">Checkout</button>
+                    <button type="button" class="btn btn-info">  <a href="checkouttest.html">Checkout</a></button>
                   </div>
                 </div>
                 
         </main>
-        <footer>
+        <footer class="bg-light">
             <!-- place footer here -->
-        </footer>
+            <p>Seven Pens: Staionery Store</p>
+            <p>New York, NY</p>
+            &copy;Established 2024
+            </footer>
+      
         <!-- Bootstrap JavaScript Libraries -->
         <script
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
