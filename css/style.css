@@ -39,6 +39,15 @@ a {
 	background-color: #abbaba;
 	color: #000;
   }
+	.navbar-expand-lg bg-body-tertiary {
+		border-top-left-radius:30px;
+		border-bottom-left-radius:30px;   
+		}
+	
+		.navbar-expand-lg bg-body-tertiary {
+		border-top-right-radius:30px;
+		border-bottom-right-radius:30px;  
+		}
   
     
     

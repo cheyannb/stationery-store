@@ -4,6 +4,12 @@ background: linear-gradient(145deg, #ddddd4, #fffffb);
 box-shadow:  20px 20px 60px #d0d0c8,
              -20px -20px 60px #ffffff;
 }
+.container{
+  border-radius: 50px;
+background: linear-gradient(145deg, #ddddd4, #fffffb);
+box-shadow:  20px 20px 60px #d0d0c8,
+             -20px -20px 60px white;
+}
 .button-info{
     background-attachment: #61B2D6;
 }
